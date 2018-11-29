@@ -1,0 +1,29 @@
+{
+  "name": "webpackdemos",
+  "version": "1.0.0",
+  "description": "learning webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepyted/webpackdemos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleepyted/webpackdemos/issues"
+  },
+  "homepage": "https://github.com/sleepyted/webpackdemos#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
