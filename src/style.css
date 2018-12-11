@@ -1,4 +1,13 @@
+@font-face {
+    font-family: MyFont;
+    /* src : url('./BERNHC.ttf') format('ttf'); */
+    src : url('./BERNHC.ttf') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello{
     color: red;
-    background: url('./icon.png')
+    font-family: MyFont;
+    /* background: url('./icon.png') */
 }

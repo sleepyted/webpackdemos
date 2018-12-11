@@ -1,6 +1,7 @@
 import _ from "lodash"
 import './style.css'
 import icon from './icon.png'
+import Data from './data.xml'
 
 function component(){
     let element = document.createElement('div')
@@ -14,5 +15,7 @@ function component(){
     
     return element
 }
+
+console.log(Data)
 
 document.body.appendChild(component())
