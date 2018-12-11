@@ -1,5 +1,8 @@
 {
   "name": "webpackdemos",
+  "sideEffects": [
+    "*.css"
+  ],
   "version": "1.0.0",
   "description": "learning webpack",
   "private": true,
