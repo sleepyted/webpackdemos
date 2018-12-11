@@ -23,6 +23,7 @@
     "npm": "^6.4.1"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^1.0.1",
     "csv-loader": "^3.0.2",
     "file-loader": "^2.0.0",
