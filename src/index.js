@@ -1,10 +1,14 @@
 import {cube} from './math.js'
 
+if(process.env.NODE_ENV !== "production"){
+    console.log('Looks we are in development mode!')
+}
+
 function component(){
     let element = document.createElement('pre')
 
     element.innerHTML = [
-        'Hello webpack',
+        'Hello webpack!',
         '5 cubed is equal to ' + cube(5)
     ].join('\n\n')
     
